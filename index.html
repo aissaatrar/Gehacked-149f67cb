@@ -1,83 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="style.css">
-	<title>Document</title>
-</head>
-<body>
-
-	<img src="bit.png" alt="" width="120px" height="39">
-	<br>
-	<img src="memoryblack.png" alt="" width="20px" class="credit" >
-	<p class="sixnine">69</p>
-
-	
-	<div class="opties">
-		<select  id="logout">
-		<option value="">Xande Silva Brum</option>
-		<option value="noord-Holland">Instellingen</option>
-		<option value="zuid-Holland">Changelog</option>
-		<option value="Utrecht">Uitloggen</option>
-		</select>
-	</div>
-	
-	<div class="keuzen" >
-		<img src="house.png" alt="" height="30px" >
-		<img src="baseline2.png" alt="" height="30px"class="keuzen1">
-		<img src="star.png" alt="" height="30px" class="keuzen1">
-		<img src="checkbox.png" alt="" height="30px" class="keuzen1">
-		<img src="people.png" alt="" height="30px" class="keuzen1">
-	</div>	
-	<p class="module"> Modules </p>
-
-	<div class="lijn1 lijninfo" ></div>
-	<div class="lijn2 lijninfo" ></div>
-	<div class="lijn3 lijninfo" ></div>
-	<div class="lijn4 lijninfo" ></div>
-	<div class="lijn5 lijninfo" ></div>
-	<div class="lijn6 lijninfo" ></div>
-	<div class="lijn7 lijninfo" ></div>
-	<div class="headerlijn "></div>
-
-
-
-<di class="bigyoink">
-	<div class="eerste">
-		<p class="id">ID</p>
-		<p>096386a9-f...</p>
-		<p>2d407646-f...</p>
-		<p>42b811ea-c...</p>
-		<p>7563f311-f...</p>
-		<p>816e7a5d-c...</p>
-		<p>9011b1fb-0...</p>
-		<p>953e61c6-c...</p>
-	</div>
-
-	<div class="tweede">
-		<p class="naam">Naam</p>
-		<p>Stage 1</p>
-		<p>Project 1 - Basic Scrum</p>
-		<p>Git - Beginner</p>
-		<p>Project 2 - verdieping Scrum</p>
-		<p>Php - Beginner</p>
-		<p>Puzzels</p>
-		<p>Php - Novice</p>
-	</div>
-	<div class="derde">
-		<p class="open">Open voor studenten</p>
-		<p>Ja</p>
-		<p>Ja</p>
-		<p>Ja</p>
-		<p>Ja</p>
-		<p>Ja</p>
-		<p>Nee</p>
-		<p>Ja</p>
-	</div>
-</di>
-
-</body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Jarvis | Bit Academy</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="media/images/logo_black_beta.png" width="120px" height="45px">
+            </div>
+            <div class="int">
+                <div class="tokens">
+                    <i class="material-icons">memory</i>
+                    <span class="tokennr">194</span>
+                </div>
+                <div class="dropdown">
+                    <a href="#" class="info">
+                        <span class="infnm">aissa atrar</span>
+                        <i class="material-icons" id="arrow">keyboard_arrow_down</i>
+                    </a>
+                    <div class="dropdownlst">
+                        <ul>
+                            <a href="#">
+                                <li class="dropbtn">
+                                    <i class="material-icons grey600">settings_applications</i>
+                                    <span class="btntxt">Instellingen</span>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="dropbtn">
+                                <i class="material-icons grey600">description</i>
+                                <span class="btntxt">Changelog</span>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="dropbtn">
+                                <i class="material-icons grey600">exit_to_app</i>
+                                <span class="btntxt">Uitloggen</span>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <a href="#home" class="navicons">
+                        <li class="icons">
+                            <i class="material-icons md-light">home</i>
+                        </li>
+                    </a>
+                    <a href="#modules" class="navicons">
+                        <li class="icons">
+                            <i class="material-icons md-light">code</i>
+                        </li>
+                    </a>
+                    <a href="#reviews" class="navicons">
+                        <li class="icons">
+                            <i class="material-icons md-light">star_half</i>
+                        </li>
+                    </a>
+                    <a href="#taken" class="navicons">
+                        <li class="icons">
+                            <i class="material-icons md-light">assignment_turned_in</i>
+                        </li>
+                    </a>
+                    <a href="#gebruikers" class="navicons">
+                        <li class="icons">
+                            <i class="material-icons md-light">group</i>
+                        </li>
+                    </a>
+                </ul>
+            </nav>
+            <div class="content">
+                <div class="title">
+                    <h1>Modules</h1>
+                </div>
+                <table>
+                     <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Naam</th>
+                            <th>Open voor studenten</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>udheU88838Hjhb</td>
+                            <td>Stage 1</td>
+                            <td>Ja</td>
+                        </tr>
+                        <tr>
+                            <td>ybhfry737hfbfhr83738747bd</td>
+                            <td>Project 1 - Basis Scrum</td>
+                            <td>Ja</td>
+                        </tr>
+                        <tr>
+                            <td>rheurf7372873hfy</td>
+                            <td>Git - beginner</td>
+                            <td>Ja</td>
+                        </tr>
+                        <tr>
+                            <td>bcbuehry737373fbefbue47</td>
+                            <td>Project 2 - Verdieping Scrum</td>
+                            <td>Nee</td>
+                        </tr>
+                        <tr>
+                            <td>djenheru838hf784747</td>
+                            <td>php - beginner</td>
+                            <td>Nee</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
 </html>
