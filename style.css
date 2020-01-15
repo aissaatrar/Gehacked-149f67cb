@@ -1,0 +1,140 @@
+.credit{
+    position: absolute;
+    left: 1311.69px;
+    top: 16px;
+}
+.sixnine{
+    position: absolute;
+    left: 1340.69px;
+    top: -3.69px;
+    font-size: 18.69px;
+}
+#logout {
+    position: absolute;
+    left: 1380.69px;
+    top: 18.69px;   
+    border-style: none;
+
+}
+
+.keuzen{
+    background-color: rgb(15, 15, 31);
+    display: flex;
+    flex-direction: column;
+    width: 2%;
+    position:absolute;
+    left:0;
+    top:59px;
+    padding-bottom: 404px;
+    padding-left: 8px;
+    padding-right: 19px;
+    padding-top: 20px;
+}
+.keuzen1{
+    margin-top: 30px;
+}
+.opties {
+   
+    border-style: none;
+}
+
+.module{
+    position: absolute;
+    left: 56.69px;
+    top: -10px;
+    font-size:69px;
+    background-color: rgb(31, 172, 182);
+    color: white;
+    padding-left: 70px;
+    padding-right: 1143.69px;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+body {
+    font-family: monospace;
+    
+}
+.eerste{
+    position: absolute;
+    left: 150px;
+    top: 300px;
+ 
+}
+.tweede{
+    position: absolute;
+    left: 669px;
+    top: 300px;
+}
+.derde{
+    position: absolute;
+    left: 1100px;
+    top: 300px;
+}
+.bigyoink{
+    font-size: 20px;
+}
+.id {
+    opacity: 50%;
+}
+.naam {
+    opacity: 50%;
+}
+.open{
+    opacity: 50%;
+}
+.lijninfo{
+    border-top: 1px solid black;
+    width: 1415.69px;
+    opacity: 10%;
+}
+
+.lijn1.lijninfo {
+
+    position: absolute;
+    top: 352.69px;
+    left: 120px;
+ }
+.lijn2.lijninfo{
+    position: absolute;
+    top: 395px;
+    left: 120px;
+}
+.lijn3.lijninfo{
+    position: absolute;
+    top: 440px;
+    left: 120px;
+}
+.lijn4.lijninfo{
+    position: absolute;
+    top: 480px;
+    left: 120px;
+}
+
+.lijn5.lijninfo{
+    position: absolute;
+    top: 525.69px;
+    left: 120px;
+}
+
+.lijn6.lijninfo{
+    position: absolute;
+    top: 570px;
+    left: 120px;
+}
+
+.lijn7.lijninfo{
+    position: absolute;
+    top: 615px;
+    left: 120px;
+}
+.headerlijn {
+    position: absolute;
+    top: 2px;
+    left: 1369.69px;
+    border-left: 1px solid black; 
+    opacity: 10%;
+    height: 55px;
+}
+
+
+
